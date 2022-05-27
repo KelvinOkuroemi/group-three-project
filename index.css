@@ -1,0 +1,47 @@
+/* HEADER */
+@media screen and (max-width: 480px) {
+  .header-text {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+body {
+  font-family: "Kalam", cursive;
+}
+
+.container-fluid {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #00ffab;
+}
+
+.img-fluid {
+  max-width: 10%;
+}
+
+@media screen and (max-width: 480px) {
+    .img-fluid{
+        max-width: 30%;
+    }
+}
+
+.header-text {
+  padding-top: 1rem;
+  font-weight: 800;
+}
+
+/* BODY */
+
+main{
+    padding: 2rem 1rem;
+}
+
+.brand-color{
+    background-color: #00ffab !important;
+    border: #00ffab;
+}
+
+.card{
+    border: #00ffab;
+}

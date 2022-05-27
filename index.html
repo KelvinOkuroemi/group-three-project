@@ -6,27 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
     <!-- bootstrap -->
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
     <!-- custom css -->
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-- logo and background container -->
-    <div class="header">
-      <!-- logo -->
-      <div class="logo"></div>
-      <!-- header-text -->
-      <h3 class="header-text">Amen parish Teen church. Group 3 presents:</h3>
+    <!-- container head  -->
+    <div class="container-fluid">
+      <img src="images/Rccg_logo.png" class="img-fluid" alt="logo" />
+      <div class="header-text">
+        <h3>Amen Mega Parish Teen Church</h3>
+        <h3>presents its project website</h3>
+      </div>
     </div>
-    <!--Cards -->
-    <div class="pages">
-      <a href="cap.html">Cap</a>
-      <a href="dettol.html">Dettol</a>
-      <a href="fashion.html">Fashion</a>
-    </div>
+
+    <!-- main body  -->
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <!-- Cap  -->
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary brand-color">
+              <h4 class="my-0 fw-normal">Cap</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Cap</h1>
+              <p>Click to find out how we made the cap</p>
+              <a href="cap.html"><button type="button" class="w-100 btn btn-lg btn-primary brand-color">Click me</button></a>
+            </div>
+          </div>
+        </div>
+        <!-- Dettol -->
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary brand-color">
+              <h4 class="my-0 fw-normal">Antiseptic</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Antiseptic</h1>
+              <p>You want to know how to make quick and effective antiseptic?</p>
+              <a href="dettol.html"><button type="button" class="w-100 btn btn-lg btn-primary brand-color">Click me</button></a>
+            </div>
+          </div>
+        </div>
+        <!-- Fashion -->
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary brand-color">
+              <h4 class="my-0 fw-normal">Fashion Set</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Fashion Set</h1>
+              <p>You can know how to make a matching fashion set like ours</p>
+              <a href="fashion.html"><button type="button" class="w-100 btn btn-lg btn-primary brand-color">Click me</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- footer -->
-    <footer class="footer">
-      <img src="" alt="" class="footer-photo" />
-      <p>Made with love from group 3 💖</p>
-    </footer>
   </body>
 </html>
+
+<!-- footer -->
+<!-- <footer class="footer">
+   <img src="" alt="" class="footer-photo" />
+   <p>Made with love from group 3 💖</p>
+ </footer> -->
+
+ 
