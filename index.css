@@ -16,6 +16,17 @@ body {
   background-color: #00ffab;
 }
 
+div.container-fluid.image{
+  background-color: white;
+  margin-top: -3rem;
+}
+
+/* picture  */
+img.img-fluid.img-picture{
+  max-width: 50%;
+  object-fit: cover;
+}
+
 .img-fluid {
   max-width: 10%;
 }
@@ -24,6 +35,11 @@ body {
     .img-fluid{
         max-width: 30%;
     }
+
+    img.img-fluid.img-picture{
+      max-width: 80%;
+    }
+
 }
 
 .header-text {
