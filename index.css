@@ -45,3 +45,9 @@ main{
 .card{
     border: #00ffab;
 }
+
+/* FOOTER */
+
+.center-footer{
+  text-align: center;
+}
