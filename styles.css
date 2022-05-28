@@ -1,0 +1,73 @@
+body {
+  font-family: "Kalam", cursive;
+}
+
+.container-fluid {
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.img-fluid {
+  max-width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+  .img-fluid {
+    max-width: 100%;
+  }
+}
+
+/* text header  */
+.heading {
+  text-align: center;
+  padding: 2rem;
+  font-weight: 800;
+  background-color: #00ffab;
+  margin: 3rem 2.5rem;
+  border-radius: 1rem;
+}
+
+.heading h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* ingredients  */
+.list {
+  text-align: left;
+  margin: 0 5rem;
+}
+
+/* procedures */
+.procedure{
+    margin-bottom: 2rem;
+}
+.holder {
+  min-height: 100vh;
+}
+
+.rounded {
+  border-radius: 1rem !important;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+input:checked + label {
+  text-decoration: line-through;
+  color: #adb5bd;
+}
+
+label {
+  cursor: pointer;
+}
+
+span {
+  font-size: 1.5rem;
+}
+
+input {
+  width: 16px;
+  height: 16px;
+}
